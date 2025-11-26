@@ -1,0 +1,30 @@
+@page "/debug"
+@using MathSpectrum.Core.Models
+@using MathSpectrum.Core.Services
+
+<h3>🎯 Fourier Calculator Debug</h3>
+
+@foreach (FunctionType functionType in Enum.GetValues<FunctionType>())
+{
+    <div class="card mb-3">
+        <div class="card-header bg-primary text-white">
+            <strong>@functionType</strong>
+        </div>
+        <div class="card-body">
+            @foreach (var harmonic in GetHarmonics(functionType))
+            {
+                <span class="badge bg-secondary me-2">
+                    H@(harmonic.Order): @harmonic.Amplitude.ToString("F4")
+                </span>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private List<Harmonic> GetHarmonics(FunctionType type)
+    {
+        var calculator = new FourierCalculator();
+        return calculator.CalculateHarmonics(type, 5);
+    }
+}
