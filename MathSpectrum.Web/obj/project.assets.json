@@ -103,7 +103,11 @@
           "build/net8.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer/8.0.0": {
+=======
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/10.0.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -1020,7 +1024,11 @@
           "build/net8.0/Microsoft.AspNetCore.Components.WebAssembly.props": {}
         }
       },
+<<<<<<< Updated upstream
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer/8.0.0": {
+=======
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer/10.0.0": {
+>>>>>>> Stashed changes
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets": {}
@@ -1928,10 +1936,17 @@
         "microsoft.aspnetcore.components.webassembly.nuspec"
       ]
     },
+<<<<<<< Updated upstream
     "Microsoft.AspNetCore.Components.WebAssembly.DevServer/8.0.0": {
       "sha512": "58fI3IAY1b4EfW/gw3H1kxWawgdowdp6kztoOFvxwZNCTDfEeM48Hlka5MWhCh71Um5ZMRqeYDjMta8UzHC+iA==",
       "type": "package",
       "path": "microsoft.aspnetcore.components.webassembly.devserver/8.0.0",
+=======
+    "Microsoft.AspNetCore.Components.WebAssembly.DevServer/10.0.0": {
+      "sha512": "PNlgKpY8yHbECR7lrJDV7BJ0xk39NCYTt2sFh4HQPFKc5gP7a6JH/rwruFbaoOc8zjSJxQfI3zGubBHVlNJt8A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.webassembly.devserver/10.0.0",
+>>>>>>> Stashed changes
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1939,9 +1954,14 @@
         "Icon.png",
         "THIRD-PARTY-NOTICES.txt",
         "build/Microsoft.AspNetCore.Components.WebAssembly.DevServer.targets",
+<<<<<<< Updated upstream
         "microsoft.aspnetcore.components.webassembly.devserver.8.0.0.nupkg.sha512",
         "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
         "tools/ARM64/aspnetcorev2_inprocess.dll",
+=======
+        "microsoft.aspnetcore.components.webassembly.devserver.10.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.components.webassembly.devserver.nuspec",
+>>>>>>> Stashed changes
         "tools/BlazorDebugProxy/BrowserDebugHost.dll",
         "tools/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json",
         "tools/BlazorDebugProxy/BrowserDebugProxy.dll",
@@ -1975,6 +1995,11 @@
         "tools/Microsoft.AspNetCore.Components.Web.xml",
         "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.dll",
         "tools/Microsoft.AspNetCore.Components.WebAssembly.Server.xml",
+<<<<<<< Updated upstream
+=======
+        "tools/Microsoft.AspNetCore.Components.WebAssembly.dll",
+        "tools/Microsoft.AspNetCore.Components.WebAssembly.xml",
+>>>>>>> Stashed changes
         "tools/Microsoft.AspNetCore.Components.dll",
         "tools/Microsoft.AspNetCore.Components.xml",
         "tools/Microsoft.AspNetCore.Connections.Abstractions.dll",
@@ -2033,6 +2058,11 @@
         "tools/Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml",
         "tools/Microsoft.AspNetCore.Server.Kestrel.dll",
         "tools/Microsoft.AspNetCore.Server.Kestrel.xml",
+<<<<<<< Updated upstream
+=======
+        "tools/Microsoft.AspNetCore.StaticAssets.dll",
+        "tools/Microsoft.AspNetCore.StaticAssets.xml",
+>>>>>>> Stashed changes
         "tools/Microsoft.AspNetCore.StaticFiles.dll",
         "tools/Microsoft.AspNetCore.StaticFiles.xml",
         "tools/Microsoft.AspNetCore.WebUtilities.dll",
@@ -2055,8 +2085,11 @@
         "tools/Microsoft.Extensions.Features.xml",
         "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "tools/Microsoft.Extensions.FileProviders.Composite.dll",
+<<<<<<< Updated upstream
         "tools/Microsoft.Extensions.FileProviders.Embedded.dll",
         "tools/Microsoft.Extensions.FileProviders.Embedded.xml",
+=======
+>>>>>>> Stashed changes
         "tools/Microsoft.Extensions.FileProviders.Physical.dll",
         "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
         "tools/Microsoft.Extensions.Hosting.Abstractions.dll",
@@ -2073,14 +2106,27 @@
         "tools/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
         "tools/Microsoft.Extensions.Options.dll",
         "tools/Microsoft.Extensions.Primitives.dll",
+<<<<<<< Updated upstream
         "tools/Microsoft.Extensions.WebEncoders.dll",
         "tools/Microsoft.Extensions.WebEncoders.xml",
+=======
+        "tools/Microsoft.Extensions.Validation.ValidationsGenerator.dll",
+        "tools/Microsoft.Extensions.Validation.dll",
+        "tools/Microsoft.Extensions.Validation.xml",
+        "tools/Microsoft.Extensions.WebEncoders.dll",
+        "tools/Microsoft.Extensions.WebEncoders.xml",
+        "tools/Microsoft.JSInterop.WebAssembly.dll",
+        "tools/Microsoft.JSInterop.WebAssembly.xml",
+>>>>>>> Stashed changes
         "tools/Microsoft.JSInterop.dll",
         "tools/Microsoft.JSInterop.xml",
         "tools/Microsoft.Net.Http.Headers.dll",
         "tools/Microsoft.Net.Http.Headers.xml",
         "tools/System.Diagnostics.EventLog.dll",
+<<<<<<< Updated upstream
         "tools/System.IO.Pipelines.dll",
+=======
+>>>>>>> Stashed changes
         "tools/System.Security.Cryptography.Pkcs.dll",
         "tools/System.Security.Cryptography.Xml.dll",
         "tools/blazor-devserver.deps.json",
@@ -2088,11 +2134,18 @@
         "tools/blazor-devserver.exe",
         "tools/blazor-devserver.runtimeconfig.json",
         "tools/blazor-devserver.xml",
+<<<<<<< Updated upstream
         "tools/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll",
         "tools/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll",
         "tools/runtimes/win/lib/net8.0/System.Security.Cryptography.Pkcs.dll",
         "tools/x64/aspnetcorev2_inprocess.dll",
         "tools/x86/aspnetcorev2_inprocess.dll"
+=======
+        "tools/runtimes/win/lib/net10.0/System.Diagnostics.EventLog.Messages.dll",
+        "tools/runtimes/win/lib/net10.0/System.Diagnostics.EventLog.dll",
+        "tools/runtimes/win/lib/net10.0/System.Security.Cryptography.Pkcs.dll",
+        "tools/x64/aspnetcorev2_inprocess.dll"
+>>>>>>> Stashed changes
       ]
     },
     "Microsoft.AspNetCore.Metadata/8.0.0": {
@@ -3355,7 +3408,11 @@
     "net8.0": [
       "MathSpectrum.Core >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
+<<<<<<< Updated upstream
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.0",
+=======
+      "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 10.0.0",
+>>>>>>> Stashed changes
       "Microsoft.NET.ILLink.Tasks >= 8.0.21",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 9.0.10"
     ]
@@ -3420,9 +3477,14 @@
             "version": "[8.0.0, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+<<<<<<< Updated upstream
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
+=======
+            "target": "Package",
+            "version": "[10.0.0, )"
+>>>>>>> Stashed changes
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",

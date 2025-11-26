@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
   "dgSpecHash": "BVhNjHYeIJw=",
+=======
+  "dgSpecHash": "ZTi0rR5/jXA=",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\One life one death\\OneDrive\\Документы\\MathSpectrum\\MathSpectrum.Web\\MathSpectrum.Web.csproj",
   "expectedPackageFiles": [
@@ -10,7 +14,11 @@
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\microsoft.aspnetcore.components.webassembly.8.0.0.nupkg.sha512",
+<<<<<<< Updated upstream
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\8.0.0\\microsoft.aspnetcore.components.webassembly.devserver.8.0.0.nupkg.sha512",
+=======
+    "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.devserver\\10.0.0\\microsoft.aspnetcore.components.webassembly.devserver.10.0.0.nupkg.sha512",
+>>>>>>> Stashed changes
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.aspnetcore.metadata\\8.0.0\\microsoft.aspnetcore.metadata.8.0.0.nupkg.sha512",
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
     "C:\\Users\\One life one death\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

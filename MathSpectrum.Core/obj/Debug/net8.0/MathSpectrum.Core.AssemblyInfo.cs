@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cc7e861d8467f366cf3a5b32b5362962ca6b64f")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5d89422a2dad0fb42b9af9f72f1ba1eee3634bc")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
