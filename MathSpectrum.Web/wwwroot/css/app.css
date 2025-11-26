@@ -1,12 +1,28 @@
-/* Базовые стили + фиолетовая тема */
+/* Фиолетовая тема */
 :root {
-    --primary-purple: #8B5CF6;
-    --primary-dark: #5B21B6;
+    --p-primary: #8B5CF6;
+    --p-primary-dark: #5B21B6;
+    --p-primary-light: #A78BFA;
 }
 
 .navbar-brand {
     font-weight: 800;
-    background: linear-gradient(135deg, var(--primary-purple), #A78BFA);
+    background: linear-gradient(135deg, var(--p-primary), var(--p-primary-light));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.btn-primary {
+    background: var(--p-primary);
+    border-color: var(--p-primary);
+}
+
+.btn-primary:hover {
+    background: var(--p-primary-dark);
+    border-color: var(--p-primary-dark);
+}
+
+.card-header {
+    background: linear-gradient(135deg, var(--p-primary), var(--p-primary-dark)) !important;
+    color: white;
 }
