@@ -5,6 +5,9 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
-    <PackageReference Include="xunit" Version="2.6.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MathSpectrum.Core\MathSpectrum.Core.csproj" />
   </ItemGroup>
 </Project>
