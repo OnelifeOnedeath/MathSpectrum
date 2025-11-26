@@ -2,29 +2,44 @@
 @using MathSpectrum.Core.Models
 @using MathSpectrum.Core.Services
 
-<h3>🎯 Fourier Calculator Debug</h3>
-
-@foreach (FunctionType functionType in Enum.GetValues<FunctionType>())
-{
-    <div class="card mb-3">
-        <div class="card-header bg-primary text-white">
-            <strong>@functionType</strong>
+<div class="container mt-4">
+    <h1>🔬 Fourier Calculator Debug</h1>
+    
+    @foreach (FunctionType functionType in Enum.GetValues<FunctionType>())
+    {
+        <div class="card mb-3">
+            <div class="card-header" style="background: linear-gradient(135deg, #8B5CF6, #5B21B6); color: white;">
+                <strong>@functionType</strong>
+            </div>
+            <div class="card-body">
+                <h6>Harmonics:</h6>
+                @foreach (var harmonic in GetHarmonics(functionType))
+                {
+                    <span class="badge bg-secondary me-2 mb-2">
+                        H@(harmonic.Order): @harmonic.Amplitude.ToString("F4")
+                    </span>
+                }
+                
+                <div class="mt-2">
+                    <small class="text-muted">
+                        Base function value at x=0: @GetBaseFunctionValue(functionType, 0)
+                    </small>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-            @foreach (var harmonic in GetHarmonics(functionType))
-            {
-                <span class="badge bg-secondary me-2">
-                    H@(harmonic.Order): @harmonic.Amplitude.ToString("F4")
-                </span>
-            }
-        </div>
-    </div>
-}
+    }
+</div>
 
 @code {
     private List<Harmonic> GetHarmonics(FunctionType type)
     {
         var calculator = new FourierCalculator();
         return calculator.CalculateHarmonics(type, 5);
+    }
+    
+    private double GetBaseFunctionValue(FunctionType type, double x)
+    {
+        var calculator = new FourierCalculator();
+        return calculator.CalculateFunctionValue(type, x);
     }
 }
