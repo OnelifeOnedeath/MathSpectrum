@@ -1,3 +1,5 @@
+using MathSpectrum.Core.Models;
+
 namespace MathSpectrum.Core.Services;
 
 public class FourierCalculator : IFourierCalculator
@@ -6,7 +8,7 @@ public class FourierCalculator : IFourierCalculator
     {
         var harmonics = new List<Harmonic>();
         
-        for (int n = 1; n <= maxHarmonics; n += 2) // Только нечётные гармоники
+        for (int n = 1; n <= maxHarmonics; n += 2)
         {
             double amplitude = CalculateAmplitude(functionType, n, period);
             harmonics.Add(new Harmonic 
@@ -34,7 +36,6 @@ public class FourierCalculator : IFourierCalculator
     
     public double CalculateFunctionValue(FunctionType functionType, double x, double period = 2 * Math.PI)
     {
-        // Базовая функция без разложения в ряд
         double normalizedX = x % period;
         
         return functionType switch
