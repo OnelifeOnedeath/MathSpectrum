@@ -1,3 +1,9 @@
+using MathSpectrum.Core.Models;
+using MathSpectrum.Core.Services;
+using Xunit;
+
+namespace MathSpectrum.Core.Tests;
+
 public class FourierCalculatorTests
 {
     [Theory]
