@@ -1,0 +1,6 @@
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.csproj.AssemblyReference.cache
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.AssemblyInfoInputs.cache
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.AssemblyInfo.cs
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.csproj.CoreCompileInputs.cache
+C:\Users\One life one death\OneDrive\Документы\MathSpectrum\MathSpectrum.Core\obj\Debug\net8.0\MathSpectrum.Core.sourcelink.json
