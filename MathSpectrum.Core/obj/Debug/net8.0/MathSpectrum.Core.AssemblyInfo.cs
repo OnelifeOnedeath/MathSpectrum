@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9c361e8dc933c284c3b40a0c49ebdb675be034a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cc7e861d8467f366cf3a5b32b5362962ca6b64f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathSpectrum.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

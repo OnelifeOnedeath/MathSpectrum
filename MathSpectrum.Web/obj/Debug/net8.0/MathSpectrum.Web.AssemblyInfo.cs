@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MathSpectrum.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8c50757d0b05e4c724cc376b0580814cfbf910")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cc7e861d8467f366cf3a5b32b5362962ca6b64f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MathSpectrum.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MathSpectrum.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
