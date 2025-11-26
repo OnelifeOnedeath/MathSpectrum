@@ -1,3 +1,5 @@
+using MathSpectrum.Core.Models;
+
 namespace MathSpectrum.Core.Services;
 
 public interface IFourierCalculator
