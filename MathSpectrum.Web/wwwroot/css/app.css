@@ -1,1 +1,12 @@
+/* Базовые стили + фиолетовая тема */
+:root {
+    --primary-purple: #8B5CF6;
+    --primary-dark: #5B21B6;
+}
 
+.navbar-brand {
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary-purple), #A78BFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
