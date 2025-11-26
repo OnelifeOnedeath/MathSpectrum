@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
   </ItemGroup>
 
+  <!-- ВАЖНО: ДОЛЖНА БЫТЬ ЭТА ССЫЛКА -->
   <ItemGroup>
     <ProjectReference Include="..\MathSpectrum.Core\MathSpectrum.Core.csproj" />
   </ItemGroup>
